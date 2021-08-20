@@ -1,0 +1,15 @@
+slideId: example
+info:
+  registration1:
+    wsi_image1:
+      height: 100
+      moved_date: 06-Jul-2021 (10:25:36.901416)
+      width: 100
+      file_path: ./static/stage_images/example.png
+      wsi_id: example_wsi_1
+    stage_image1:
+      height: 100
+      moved_date: 06-Jul-2021 (10:25:36.882739)
+      width: 100
+      file_path: ./static/stage_images/example.png
+      stage_id: example_stage_1
