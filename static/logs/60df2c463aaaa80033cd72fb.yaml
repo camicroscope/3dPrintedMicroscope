@@ -1,0 +1,74 @@
+slideId: 60df2c463aaaa80033cd72fb
+info:
+  registration2:
+    stage_image2:
+      center_x: 295.0
+      stage_id: 60df2c463aaaa80033cd72fb_stage_2
+      filename: 60df2c463aaaa80033cd72fb_stage_2_2021-08-11-11:11:34.png
+      center_y: 468.0
+      moved_date: 11-Aug-2021 (11:11:35.035352)
+      width: 340
+      file_path: ./static/stage_images/60df2c463aaaa80033cd72fb_stage_2.png
+      height: 340
+    wsi_image2:
+      width: 1700
+      file_path: ./static/wsi_images/60df2c463aaaa80033cd72fb_wsi_2.png
+      height: 1700
+      wsi_id: 60df2c463aaaa80033cd72fb_wsi_2
+      cropped-region-info:
+        width: 1700
+        center_x: 46395.0
+        top-left-y: 71132.0
+        height: 1700
+        top-left-x: 45545.0
+        filename: 60df2c463aaaa80033cd72fb-22021-08-11-11:16:20.png
+        center_y: 71982.0
+      moved_date: 11-Aug-2021 (11:16:21.620379)
+  registration3:
+    stage_image3:
+      center_x: 502.0
+      height: 340
+      filename: 60df2c463aaaa80033cd72fb_stage_3_2021-08-11-11:20:18.png
+      center_y: 240.0
+      moved_date: 11-Aug-2021 (11:20:18.508767)
+      width: 340
+      file_path: ./static/stage_images/60df2c463aaaa80033cd72fb_stage_3.png
+      stage_id: 60df2c463aaaa80033cd72fb_stage_3
+    wsi_image3:
+      width: 1700
+      file_path: ./static/wsi_images/60df2c463aaaa80033cd72fb_wsi_3.png
+      height: 1700
+      wsi_id: 60df2c463aaaa80033cd72fb_wsi_3
+      cropped-region-info:
+        width: 1700
+        center_x: 14270.0
+        top-left-y: 35653.0
+        height: 1700
+        top-left-x: 13420.0
+        filename: 60df2c463aaaa80033cd72fb-32021-08-11-11:26:39.png
+        center_y: 36503.0
+      moved_date: 11-Aug-2021 (11:26:41.267209)
+  registration1:
+    stage_image1:
+      center_x: 60.0
+      stage_id: 60df2c463aaaa80033cd72fb_stage_1
+      filename: 60df2c463aaaa80033cd72fb_stage_1_2021-08-11-10:53:16.png
+      center_y: 222.0
+      moved_date: 11-Aug-2021 (10:53:16.498714)
+      width: 340
+      file_path: ./static/stage_images/60df2c463aaaa80033cd72fb_stage_1.png
+      height: 340
+    wsi_image1:
+      width: 1700
+      file_path: ./static/wsi_images/60df2c463aaaa80033cd72fb_wsi_1.png
+      height: 1700
+      wsi_id: 60df2c463aaaa80033cd72fb_wsi_1
+      cropped-region-info:
+        width: 1700
+        center_x: 83375.0
+        top-left-y: 33921.0
+        height: 1700
+        top-left-x: 82525.0
+        filename: 60df2c463aaaa80033cd72fb-12021-08-11-10:58:46.png
+        center_y: 34771.0
+      moved_date: 11-Aug-2021 (10:58:48.319804)
