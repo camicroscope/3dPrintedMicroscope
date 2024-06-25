@@ -10,7 +10,7 @@ workdir /src
 copy requirements.txt .
 run pip install -r requirements.txt
 
-copy * .
+copy ./ /src/
 
 EXPOSE 8020
 
