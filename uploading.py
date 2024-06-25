@@ -1,4 +1,4 @@
-from Lens_movement import hardware_action
+# from Lens_movement import hardware_action
 from flask import render_template,Flask
 from flask_cors import CORS
 from flask import jsonify
@@ -17,6 +17,10 @@ import numpy as np
 
 app=Flask(__name__)
 CORS(app)
+
+## fake fcn
+def hardware_action(*args, **kwargs):
+    pass
 
 #Redirect to
 redirect_to_client=None

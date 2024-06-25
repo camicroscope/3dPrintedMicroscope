@@ -2,3 +2,7 @@ flask
 flask-cors
 Pillow
 RPi.GPIO
+numpy
+imutils
+opencv-python
+pyyaml

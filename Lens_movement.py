@@ -1,6 +1,19 @@
 from Motor_Movement import zplus,zminus,rightstep,leftstep,upwardstep,downwardstep
-import RPi.GPIO as GPIO
 import time
+
+def is_running_on_pi():
+    try:
+        with open('/proc/device-tree/model') as f:
+            model = f.read()
+        return 'Raspberry Pi' in model
+    except Exception:
+        return False
+    
+
+if is_running_on_pi():
+    import RPi.GPIO as GPIO
+else:
+    import FakeGPIO as GPIO
 
 GPIO.setwarnings(False)
 GPIO.setmode(GPIO.BOARD)
@@ -10,6 +23,7 @@ GPIO.setup(21,GPIO.IN,pull_up_down=GPIO.PUD_DOWN)
 GPIO.setup(23,GPIO.IN,pull_up_down=GPIO.PUD_DOWN)
 GPIO.setup(33,GPIO.IN,pull_up_down=GPIO.PUD_DOWN)
 GPIO.setup(29,GPIO.IN,pull_up_down=GPIO.PUD_DOWN)
+
 def hardware_action(x_prev,y_prev,z_prev,x_curr,y_curr,z_curr):
     xsteps=int(x_curr-x_prev)
     ysteps=int(y_curr-y_prev)

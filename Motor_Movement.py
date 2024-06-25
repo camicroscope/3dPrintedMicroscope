@@ -1,6 +1,19 @@
-import RPi.GPIO as GPIO
 import time
 
+
+def is_running_on_pi():
+    try:
+        with open('/proc/device-tree/model') as f:
+            model = f.read()
+        return 'Raspberry Pi' in model
+    except Exception:
+        return False
+
+if is_running_on_pi():
+    import RPi.GPIO as GPIO
+else:
+    import FakeGPIO as GPIO
+    
 
 GPIO.setwarnings(False)
 GPIO.setmode(GPIO.BOARD)
